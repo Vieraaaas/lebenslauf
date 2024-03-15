@@ -1,0 +1,39 @@
+:root {
+  font-size: 16px;
+  --white: rgb(238, 234, 228);
+  --black: rgb(18, 18, 18);
+  --header-color: olivedrab;
+  --sidebar-color: grey;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+}
+
+#body-header {
+  background-color: var(--header-color);
+}
+
+#body-header hgroup {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+#profession::after {
+  content: " 💻";
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+#sidebar {
+  background-color: var(--sidebar-color);
+  color: var(--white);
+}
