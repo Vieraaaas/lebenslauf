@@ -1,12 +1,16 @@
 :root {
   font-size: 16px;
-  --white: rgb(238, 234, 228);
+  --white: rgb(255, 255, 255);
   --black: rgb(18, 18, 18);
   --header-color: olivedrab;
   --sidebar-color: grey;
 }
 
 body {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  outline: 2px solid var(--black);
   background-color: var(--white);
   color: var(--black);
   position: relative;
@@ -36,4 +40,10 @@ main {
 #sidebar {
   background-color: var(--sidebar-color);
   color: var(--white);
+}
+
+@media print {
+  body {
+    outline: none;
+  }
 }
