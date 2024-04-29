@@ -43,6 +43,10 @@ h1 {
   margin-bottom: 1rem;
 }
 
+h2 {
+  margin: 2rem 0 0;
+}
+
 #body-header {
   grid-area: head;
   background-color: var(--header-color);
@@ -91,6 +95,27 @@ h1 {
   height: 2rem;
   width: 2rem;
   margin-right: 0.5rem;
+}
+
+#aktuelles h2 {
+  margin-top: 0;
+}
+
+#werdegang hgroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+#werdegang p,
+#werdegang h3 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+#werdegang ul {
+  margin: 0;
 }
 
 @media print {
