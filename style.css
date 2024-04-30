@@ -9,7 +9,7 @@
 
 :root {
   font-family: "Roboto Flex", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   --white: rgb(255, 255, 255);
   --black: rgb(18, 18, 18);
   --header-color: rgb(100, 208, 58);
@@ -25,7 +25,7 @@ body {
   color: var(--sidebar-color);
   position: relative;
   display: grid;
-  grid-template-rows: 1fr 9fr;
+  grid-template-rows: 1fr 4fr;
   grid-template-columns: 1fr 3fr;
   grid-template-areas:
     "side head "
@@ -44,13 +44,13 @@ h1 {
 }
 
 h2 {
-  margin: 2rem 0 0;
+  margin: 0;
 }
 
 #body-header {
   grid-area: head;
   background-color: var(--header-color);
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 #body-header hgroup {
@@ -66,15 +66,21 @@ h2 {
 
 #main-content {
   grid-area: main;
-  padding: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #sidebar {
   grid-area: side;
   background-color: var(--sidebar-color);
   color: var(--white);
-  padding: 1rem;
-  position: relative;
+  padding: 2rem 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #contact li {
