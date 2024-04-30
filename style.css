@@ -35,6 +35,7 @@ body {
 a,
 a:visited {
   color: var(--header-color);
+  text-decoration: none;
 }
 
 h1 {
