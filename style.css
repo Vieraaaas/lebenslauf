@@ -60,10 +60,6 @@ h2 {
   font-weight: bold;
 }
 
-#profession::after {
-  content: " 💻";
-}
-
 #main-content {
   grid-area: main;
   padding: 1.5rem;
