@@ -79,6 +79,9 @@ h2 {
   flex-direction: column;
   justify-content: space-around;
 }
+#contact {
+  font-style: normal;
+}
 
 #contact li {
   margin: 0.5rem 0;
