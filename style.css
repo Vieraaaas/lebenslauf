@@ -83,8 +83,12 @@ h2 {
   font-style: normal;
 }
 
+#contact ul {
+  margin-top: 0;
+}
+
 #contact li {
-  margin: 0.5rem 0;
+  margin: 0 0 0.5rem;
 }
 
 #skillset ul {
