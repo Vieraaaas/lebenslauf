@@ -104,7 +104,8 @@ h2 {
   margin-top: 0;
 }
 
-#werdegang hgroup {
+#werdegang hgroup,
+#aktuelles hgroup {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,12 +113,15 @@ h2 {
 }
 
 #werdegang p,
-#werdegang h3 {
+#aktuelles p,
+#werdegang h3,
+#aktuelles h3 {
   margin-top: 1rem;
   margin-bottom: 0;
 }
 
-#werdegang ul {
+#werdegang ul,
+#aktuelles ul {
   margin: 0;
 }
 
