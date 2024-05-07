@@ -107,6 +107,12 @@ h2 {
   margin-right: 0.5rem;
 }
 
+.hc-link,
+.hc-link:visited {
+  font-style: italic;
+  color: var(--sidebar-color);
+}
+
 #aktuelles h2 {
   margin-top: 0;
 }
